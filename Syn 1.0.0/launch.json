@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Run Syn File",
+        "type": "python",
+        "request": "launch",
+        "program": "${workspaceFolder}/syn.py",
+        "args": ["${file}"],
+        "console": "integratedTerminal"
+      }
+    ]
+  }
